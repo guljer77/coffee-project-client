@@ -1,0 +1,16 @@
+.footer-bg{
+  background: url('../../../assets/footer.png');
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 0;
+}
+.bottom-footer{
+  background: url('../../../assets/bottom.png');
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px 0;
+}
