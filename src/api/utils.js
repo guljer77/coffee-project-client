@@ -1,7 +1,7 @@
 import { toast } from "react-hot-toast";
 
 export const AddCoffeeItem = data =>{
-  fetch('http://localhost:5000/coffee', {
+  fetch('https://coffee-server-guljer77.vercel.app/coffee', {
     method: "POST",
     headers:{
       "content-type":"application/json"
@@ -19,7 +19,7 @@ export const AddCoffeeItem = data =>{
 
 //update
 export const Update = (id, data) =>{
-  fetch(`http://localhost:5000/coffee/${id}`,{
+  fetch(`https://coffee-server-guljer77.vercel.app/coffee/${id}`,{
     method: "PUT",
     headers: {
       "content-type":"application/json"
@@ -36,7 +36,7 @@ export const Update = (id, data) =>{
 }
 
 export const DeleteProduct = id =>{
-  fetch(`http://localhost:5000/coffee/${id}`,{
+  fetch(`https://coffee-server-guljer77.vercel.app/coffee/${id}`,{
     method: "DELETE"
   })
   .then(res=> res.json())

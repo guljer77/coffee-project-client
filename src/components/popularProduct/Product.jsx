@@ -9,7 +9,7 @@ function Product() {
   const navigate = useNavigate();
   const [product, setProduct] = useState([]);
   useEffect(() => {
-    fetch(`http://localhost:5000/coffee`)
+    fetch(`https://coffee-server-guljer77.vercel.app/coffee`)
       .then(res => res.json())
       .then(data => setProduct(data));
   }, []);
