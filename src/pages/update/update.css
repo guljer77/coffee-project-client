@@ -1,0 +1,8 @@
+.update-bg{
+  background: url("../../assets/addbanner.png");
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 0;
+}
