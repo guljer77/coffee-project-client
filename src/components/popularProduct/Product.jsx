@@ -43,7 +43,7 @@ function Product() {
                 <div>
                   <h2>Name: {productItem.name}</h2>
                   <h2>Chef: {productItem.chef}</h2>
-                  <h2>Price: $32</h2>
+                  <h2>Price: ${productItem.price}</h2>
                 </div>
                 <div>
                   <div onClick={()=>navigate(`/details/${productItem._id}`)} className="w-[30px] h-[30px cursor-pointer bg-[#D2B48C] flex items-center justify-center text-white">
